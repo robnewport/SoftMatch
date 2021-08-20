@@ -26,5 +26,7 @@ This will create heatmaps for MultiMatch.
 Inside the folder `RealScanpathExperiment` open the file `SoftMatchAnalysis.m` and run it in Matlab.   
 This will create heatmaps for SoftMatch.   
 
- 
+## MultiMatch
+MultiMatch [(Dewhurst et al.)](https://link.springer.com/article/10.3758/s13428-012-0212-2) was kindly provided for this research by Marcus Nyström marcus.nystrom@humlab.lu.se.   
+The only change made to MultiMatch was to increase the resolution to 1920 x 1080 on line 8 in file `doComparison.m.`.  
  
