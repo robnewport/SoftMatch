@@ -1,5 +1,5 @@
 # SoftMatch
-Comparing scanpaths using combinatorial spatio-temporal sequences with fractal curves
+Comparing scanpaths using combinatorial spatio-temporal sequences with fractal curves.
  
 This code should accompany the paper by the same name and is tested on Matlab R2020b. Three experiments are referenced in the paper and steps to reproduce their findings are below.   
 
