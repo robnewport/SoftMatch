@@ -5,9 +5,23 @@ This code should accompany the paper by the same name and is tested on Matlab R2
 
 Please set paths in Matlab to the root directory of this repository and include subpaths.
 
-## Data: 
-Folder `Data/BlueSpot`   
-Folder `Data/Convergence`   
+## Preprocessing source data from eye tracker: 
+Folder `Preprocessing/` contains three files:   
+`Scanpath_Preprocessing.m` - starting point for preprocesing, iterating through all the stimuli to calculate hilbert curves.   
+`Scanpath_DataPrep.m` - remove unused columns and feeding cells to the hilbert function.   
+`HilbertCurve.m` - convert (x,y) eye tracking coordinates into (h) hilbert curve locations.   
+
+Preprocessed Data Folder `Preprocessed Data/`
+
+_The preprocessed data folder contains the names of files with a 'C0' or 'R' or 'NMQ' or 'Cpilot' prefix. These mixed names were used by the data collector to organise the collection of the eye tracking experiment and do not impact this study. Therefore, after processing the data into hilbert curve locations, a unform naming structure using the letter P for all participants, e.g., P01_bluespot.txt, will be used._
+
+Post Processed Data Folder `Data/Bluepoles`   
+Post Processed Data Folder `Data/BlueSpot`   
+Post Processed Data Folder `Data/Convergence`   
+Post Processed Data Folder `Data/Pasiphae`   
+Post Processed Data Folder `Data/StarryNight`   
+Post Processed Data Folder `Data/Turner`   
+
 Structure: _x, y, t, h_ represent _x_ fixation position, _y_ fixation position, _t_ fixation duration in milliseconds, and _h_ Hilbert distance, respectively. 
 
 ## Experiment 1: Artificial Scanpath Matching Experiment
