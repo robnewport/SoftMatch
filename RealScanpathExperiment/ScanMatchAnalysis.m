@@ -13,103 +13,64 @@ name12 = ["P01_convergence" "P02_convergence" "P03_convergence" "P04_convergence
 name13  = ["P01_pasiphae" "P02_pasiphae" "P03_pasiphae" "P04_pasiphae" "P05_pasiphae" "P06_pasiphae" "P07_pasiphae" "P08_pasiphae" "P09_pasiphae" "P10_pasiphae"   "P11_pasiphae" "P12_pasiphae" "P13_pasiphae" "P14_pasiphae" "P15_pasiphae" "P16_pasiphae" "P17_pasiphae" "P18_pasiphae" "P19_pasiphae" "P20_pasiphae" "P21_pasiphae" "P22_pasiphae" "P23_pasiphae" "P24_pasiphae" "P25_pasiphae" "P26_pasiphae" "P27_pasiphae" "P28_pasiphae" "P29_pasiphae" "P30_pasiphae" "P31_pasiphae" "P32_pasiphae" "P33_pasiphae" "P34_pasiphae" "P35_pasiphae" "P36_pasiphae" "P37_pasiphae" "P38_pasiphae" "P39_pasiphae" "P40_pasiphae" "P41_pasiphae" "P42_pasiphae" "P43_pasiphae" "P44_pasiphae" "P45_pasiphae" "P46_pasiphae" "P47_pasiphae" "P48_pasiphae" "P49_pasiphae" "P50_pasiphae" "P51_pasiphae" "P52_pasiphae" "P53_pasiphae" "P01_starrynight" "P02_starrynight" "P03_starrynight" "P04_starrynight" "P05_starrynight" "P06_starrynight" "P07_starrynight" "P08_starrynight" "P09_starrynight" "P10_starrynight" "P11_starrynight" "P12_starrynight" "P13_starrynight" "P14_starrynight"   "P15_starrynight" "P16_starrynight" "P17_starrynight" "P18_starrynight" "P19_starrynight" "P20_starrynight" "P21_starrynight" "P22_starrynight" "P23_starrynight" "P24_starrynight"  "P25_starrynight" "P26_starrynight" "P27_starrynight" "P28_starrynight" "P29_starrynight" "P30_starrynight" "P31_starrynight" "P32_starrynight" "P33_starrynight" "P34_starrynight"  "P35_starrynight" "P36_starrynight" "P37_starrynight" "P38_starrynight" "P39_starrynight" "P40_starrynight" "P41_starrynight" "P42_starrynight" "P43_starrynight" "P44_starrynight"  "P45_starrynight" "P46_starrynight" "P47_starrynight" "P48_starrynight" "P49_starrynight" "P50_starrynight" "P51_starrynight" "P52_starrynight" "P53_starrynight" ];
 name14  = ["P01_pasiphae" "P02_pasiphae" "P03_pasiphae" "P04_pasiphae" "P05_pasiphae" "P06_pasiphae" "P07_pasiphae" "P08_pasiphae" "P09_pasiphae" "P10_pasiphae"   "P11_pasiphae" "P12_pasiphae" "P13_pasiphae" "P14_pasiphae" "P15_pasiphae" "P16_pasiphae" "P17_pasiphae" "P18_pasiphae" "P19_pasiphae" "P20_pasiphae" "P21_pasiphae" "P22_pasiphae" "P23_pasiphae" "P24_pasiphae" "P25_pasiphae" "P26_pasiphae" "P27_pasiphae" "P28_pasiphae" "P29_pasiphae" "P30_pasiphae" "P31_pasiphae" "P32_pasiphae" "P33_pasiphae" "P34_pasiphae" "P35_pasiphae" "P36_pasiphae" "P37_pasiphae" "P38_pasiphae" "P39_pasiphae" "P40_pasiphae" "P41_pasiphae" "P42_pasiphae" "P43_pasiphae" "P44_pasiphae" "P45_pasiphae" "P46_pasiphae" "P47_pasiphae" "P48_pasiphae" "P49_pasiphae" "P50_pasiphae" "P51_pasiphae" "P52_pasiphae" "P53_pasiphae" "P01_turner" "P02_turner" "P03_turner" "P04_turner" "P05_turner" "P06_turner" "P07_turner" "P08_turner" "P09_turner" "P10_turner" "P11_turner" "P12_turner" "P13_turner" "P14_turner"   "P15_turner" "P16_turner" "P17_turner" "P18_turner" "P19_turner" "P20_turner" "P21_turner" "P22_turner" "P23_turner" "P24_turner"  "P25_turner" "P26_turner" "P27_turner" "P28_turner" "P29_turner" "P30_turner" "P31_turner" "P32_turner" "P33_turner" "P34_turner"  "P35_turner" "P36_turner" "P37_turner" "P38_turner" "P39_turner" "P40_turner" "P41_turner" "P42_turner" "P43_turner" "P44_turner"  "P45_turner" "P46_turner" "P47_turner" "P48_turner" "P49_turner" "P50_turner" "P51_turner" "P52_turner" "P53_turner" ];
 name15  = ["P01_starrynight" "P02_starrynight" "P03_starrynight" "P04_starrynight" "P05_starrynight" "P06_starrynight" "P07_starrynight" "P08_starrynight" "P09_starrynight" "P10_starrynight"   "P11_starrynight" "P12_starrynight" "P13_starrynight" "P14_starrynight" "P15_starrynight" "P16_starrynight" "P17_starrynight" "P18_starrynight" "P19_starrynight" "P20_starrynight" "P21_starrynight" "P22_starrynight" "P23_starrynight" "P24_starrynight" "P25_starrynight" "P26_starrynight" "P27_starrynight" "P28_starrynight" "P29_starrynight" "P30_starrynight" "P31_starrynight" "P32_starrynight" "P33_starrynight" "P34_starrynight" "P35_starrynight" "P36_starrynight" "P37_starrynight" "P38_starrynight" "P39_starrynight" "P40_starrynight" "P41_starrynight" "P42_starrynight" "P43_starrynight" "P44_starrynight" "P45_starrynight" "P46_starrynight" "P47_starrynight" "P48_starrynight" "P49_starrynight" "P50_starrynight" "P51_starrynight" "P52_starrynight" "P53_starrynight" "P01_turner" "P02_turner" "P03_turner" "P04_turner" "P05_turner" "P06_turner" "P07_turner" "P08_turner" "P09_turner" "P10_turner" "P11_turner" "P12_turner" "P13_turner" "P14_turner"   "P15_turner" "P16_turner" "P17_turner" "P18_turner" "P19_turner" "P20_turner" "P21_turner" "P22_turner" "P23_turner" "P24_turner"  "P25_turner" "P26_turner" "P27_turner" "P28_turner" "P29_turner" "P30_turner" "P31_turner" "P32_turner" "P33_turner" "P34_turner"  "P35_turner" "P36_turner" "P37_turner" "P38_turner" "P39_turner" "P40_turner" "P41_turner" "P42_turner" "P43_turner" "P44_turner"  "P45_turner" "P46_turner" "P47_turner" "P48_turner" "P49_turner" "P50_turner" "P51_turner" "P52_turner" "P53_turner" ];
-name16  = ["P01_turner" "P02_turner" "P03_turner" "P04_turner" "P05_turner" "P06_turner" "P07_turner" "P08_turner" "P09_turner" "P10_turner"   "P11_turner" "P12_turner" "P13_turner" "P14_turner" "P15_turner" "P16_turner" "P17_turner" "P18_turner" "P19_turner" "P20_turner" "P21_turner" "P22_turner" "P23_turner" "P24_turner" "P25_turner" "P26_turner" "P27_turner" "P28_turner" "P29_turner" "P30_turner" "P31_turner" "P32_turner" "P33_turner" "P34_turner" "P35_turner" "P36_turner" "P37_turner" "P38_turner" "P39_turner" "P40_turner" "P41_turner" "P42_turner" "P43_turner" "P44_turner" "P45_turner" "P46_turner" "P47_turner" "P48_turner" "P49_turner" "P50_turner" "P51_turner" "P52_turner" "P53_turner" "P01_starrynight" "P02_starrynight" "P03_starrynight" "P04_starrynight" "P05_starrynight" "P06_starrynight" "P07_starrynight" "P08_starrynight" "P09_starrynight" "P10_starrynight"   "P11_starrynight" "P12_starrynight" "P13_starrynight" "P14_starrynight" "P15_starrynight" "P16_starrynight" "P17_starrynight" "P18_starrynight" "P19_starrynight" "P20_starrynight" "P21_starrynight" "P22_starrynight" "P23_starrynight" "P24_starrynight" "P25_starrynight" "P26_starrynight" "P27_starrynight" "P28_starrynight" "P29_starrynight" "P30_starrynight" "P31_starrynight" "P32_starrynight" "P33_starrynight" "P34_starrynight" "P35_starrynight" "P36_starrynight" "P37_starrynight" "P38_starrynight" "P39_starrynight" "P40_starrynight" "P41_starrynight" "P42_starrynight" "P43_starrynight" "P44_starrynight" "P45_starrynight" "P46_starrynight" "P47_starrynight" "P48_starrynight" "P49_starrynight" "P50_starrynight" "P51_starrynight" "P52_starrynight" "P53_starrynight" ];
 
-name_cat = [name1; name2; name3; name4; name5; name6; name7; name8; name9; name10; name11; name12; name13; name14; name15; name16;];
+name_cat = [name1; name2; name3; name4; name5; name6; name7; name8; name9; name10; name11; name12; name13; name14; name15;];
 
-for w = 1:16
+ScanMatchInfo = ScanMatch_Struct();
+
+tic 
+
+for w = 1:15
     
-tic
-
+ScanMatchResults = zeros(106,106);
+progress = 0;
 names = name_cat(w,:);
 name1 = strrep(names(1),'P01_','')
 name2 = strrep(names(54),'P01_','')
-sample_count = length(names);
 
-progress = 0;
-
-resultsMultiMatch1 = zeros(106, 106);
-resultsMultiMatch2 = zeros(106, 106);
-resultsMultiMatch3 = zeros(106, 106);
-resultsMultiMatch4 = zeros(106, 106);
-resultsMultiMatch5 = zeros(106, 106);
-
-for n = 1:sample_count
+for n = 1:length(names)
     
-    rowMultiMatch1 = zeros(1, 106);
-    rowMultiMatch2 = zeros(1, 106);
-    rowMultiMatch3 = zeros(1, 106);
-    rowMultiMatch4 = zeros(1, 106);
-    rowMultiMatch5 = zeros(1, 106);
+    rowScanMatch = zeros(1, 106);
+    a = names(n);
     
-    parfor j = 1:sample_count
+    parfor j = 1:length(names)
+        b = names(j);        
+        disp([a b])
         
-        names = FileUtils.experimentNames(name1, name2);
-        
-        a = names(n);
-        b = names(j);
-        
-        data1 = readmatrix(sprintf('%s.txt', a));
-        data2 = readmatrix(sprintf('%s.txt', b));
+        data1 = readtable(a);
+        data2 = readtable(b);
 
-        rv = doComparison(data1(2:end,1:3), data2(2:end,1:3));
-        
-        % Vector similarity = rv(1)
-        % Direction similarity = rv(2)
-        % Length similarity = rv(3)
-        % Position similarity = rv(4)
-        % Duration similarity = rv(5)
-                
-        if isnan(rv)
-            MultiMatchValue1 = 0;
-            MultiMatchValue2 = 0;
-            MultiMatchValue3 = 0;
-            MultiMatchValue4 = 0;
-            MultiMatchValue5 = 0;
-        else
-            MultiMatchValue1 = rv(1);
-            MultiMatchValue2 = rv(2);
-            MultiMatchValue3 = rv(3);
-            MultiMatchValue4 = rv(4);
-            MultiMatchValue5 = rv(5);
-        end
-        
-        rowMultiMatch1(j) = MultiMatchValue1; 
-        rowMultiMatch2(j) = MultiMatchValue2; 
-        rowMultiMatch3(j) = MultiMatchValue3; 
-        rowMultiMatch4(j) = MultiMatchValue4; 
-        rowMultiMatch5(j) = MultiMatchValue5; 
-        
+        seq1 = ScanMatch_FixationToSequence(data1{2:end,1:3}, ScanMatchInfo);
+        seq2 = ScanMatch_FixationToSequence(data2{2:end,1:3}, ScanMatchInfo);
+
+        Score = ScanMatch(seq1, seq2, ScanMatchInfo, 'ShowViewer', 0);
+        rowScanMatch(j) = Score;
     end
     
-    resultsMultiMatch1(n,:) = rowMultiMatch1;
-    resultsMultiMatch2(n,:) = rowMultiMatch2;
-    resultsMultiMatch3(n,:) = rowMultiMatch3;
-    resultsMultiMatch4(n,:) = rowMultiMatch4;
-    resultsMultiMatch5(n,:) = rowMultiMatch5;
-    
     progress = progress + 1;
-    displayProgress = progress / 106
+    displayProgress = progress / length(names)
+    ScanMatchResults(n,:) = rowScanMatch;
     
 end
 
-save( sprintf('MultiMatch%i_%s_%s.mat', 1, name1, name2) , 'resultsMultiMatch1');
-save( sprintf('MultiMatch%i_%s_%s.mat', 2, name1, name2) , 'resultsMultiMatch2');
-save( sprintf('MultiMatch%i_%s_%s.mat', 3, name1, name2) , 'resultsMultiMatch3');
-save( sprintf('MultiMatch%i_%s_%s.mat', 4, name1, name2) , 'resultsMultiMatch4');
-save( sprintf('MultiMatch%i_%s_%s.mat', 5, name1, name2) , 'resultsMultiMatch5');
+filename = sprintf('ScanMatch_%s_%s.mat', name1, name2);
+save(filename, 'ScanMatchResults');
 
 toc
 
 end
 
-beep()
 
-%names = FileUtils.experimentNames(name1, name2);
-%p = strrep(names,'_',' ');
-%h = heatmap(p, p, resultsMultiMatch1, 'ColorLimits', [0.00 1.00]);
-%set(gcf,'position',[0,0,1024,924]);
 
-% h = heatmap(FileUtils.participantNames, flip(FileUtils.participantNames), resultsMultiMatch1, 'ColorLimits',[0.25 1.00])
-% set(gcf,'position',[0,0,800,720])
+
+
+%h = heatmap(names, flip(names), ScanMatchResults, 'ColorLimits', [0.00 1.00]);
+%set(gcf,'position',[0,0,800,720])
+
+% 
+% h = heatmap(FileUtils.participantNames, flip(FileUtils.participantNames), ScanMatchResults, 'ColorLimits', [0.25 0.55]);
+% h = heatmap(names, flip(names), ScanMatchResults, 'ColorLimits', [0.00 0.99]);
 % set(struct(h).NodeChildren(3), 'XTickLabelRotation', 90);
+% set(gcf,'position',[0,0,800,720])
+
+beep()

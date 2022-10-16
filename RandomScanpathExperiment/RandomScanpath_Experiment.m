@@ -5,6 +5,8 @@ tbin = [150 300]; % time boundary, average fixation length is 150 to 300 msec
 sigma = [0.1, 0.3, 0.5, 0.7, 0.9]; % noise perturbations
 sigma_length = size(sigma, 2);
 
+ScanMatchInfo = ScanMatch_Struct();
+
 unique_scanpaths = 24;
 perturbation_count = 50;
 trialcount = unique_scanpaths * perturbation_count * sigma_length;
@@ -16,7 +18,9 @@ multimatch_2_result_column = zeros(1, trialcount);
 multimatch_3_result_column = zeros(1, trialcount);
 multimatch_4_result_column = zeros(1, trialcount);
 multimatch_5_result_column = zeros(1, trialcount);
+scanmatch_result_column = zeros(1, trialcount);
 
+count = 1;
 
 % make 24 unique (S1, S2) pairs.
 for i=1:unique_scanpaths    
@@ -32,7 +36,7 @@ for i=1:unique_scanpaths
             noise = sigma(n);
             
             % Noise level
-            sigma_column(p) = noise;
+            sigma_column(count) = noise;
             
             % SoftMatch
             S1p = RandomScanpath_Perturb(S1, noise);
@@ -41,27 +45,38 @@ for i=1:unique_scanpaths
             
             [SoftMatch_similar_score, SoftMatch_similar_distance] = CompareCellArrays(TemporalBinning(S1.table, tau), TemporalBinning(S1p.table, tau), 0) ;
             [SoftMatch_different_score, SoftMatch_different_distance] = CompareCellArrays(TemporalBinning(S1.table, tau), TemporalBinning(S2.table, tau), 0) ;            
-            softmatch_result_column(p) = SoftMatch_similar_distance < SoftMatch_different_distance;
+            softmatch_result_column(count) = SoftMatch_similar_distance < SoftMatch_different_distance;
             % end SoftMatch
             
             % MultiMatch
             MultiMatch_similar =     doComparison([S1.x; S1.y; S1.t]', [S1p.x; S1p.y; S1p.t]');
             MultiMatch_different =   doComparison([S1.x; S1.y; S1.t]', [S2.x; S2.y; S2.t]');
-            multimatch_1_result_column(p) = MultiMatch_similar(1) > MultiMatch_different(1);
-            multimatch_2_result_column(p) = MultiMatch_similar(2) > MultiMatch_different(2);
-            multimatch_3_result_column(p) = MultiMatch_similar(3) > MultiMatch_different(3);
-            multimatch_4_result_column(p) = MultiMatch_similar(4) > MultiMatch_different(4);            
-            multimatch_5_result_column(p) = MultiMatch_similar(5) > MultiMatch_different(5);
+            multimatch_1_result_column(count) = MultiMatch_similar(1) > MultiMatch_different(1);
+            multimatch_2_result_column(count) = MultiMatch_similar(2) > MultiMatch_different(2);
+            multimatch_3_result_column(count) = MultiMatch_similar(3) > MultiMatch_different(3);
+            multimatch_4_result_column(count) = MultiMatch_similar(4) > MultiMatch_different(4);            
+            multimatch_5_result_column(count) = MultiMatch_similar(5) > MultiMatch_different(5);
             % end MultiMatch
+            
+            % ScanMatch
+            seq1 = ScanMatch_FixationToSequence([S1.x; S1.y; S1.t]', ScanMatchInfo);
+            seq2 = ScanMatch_FixationToSequence([S2.x; S2.y; S2.t]', ScanMatchInfo);
+            seq1p = ScanMatch_FixationToSequence([S1p.x; S1p.y; S1p.t]', ScanMatchInfo);
+            Score1 = ScanMatch(seq1, seq2, ScanMatchInfo, 'ShowViewer', 0);
+            Score2 = ScanMatch(seq1, seq1p, ScanMatchInfo, 'ShowViewer', 0);
+            scanmatch_result_column(count) = Score1 < Score2;
+            % End ScanMatch
+            
+            count = count + 1;
         
         end
     end
 end
 
 
-T = table(multimatch_1_result_column', multimatch_2_result_column', multimatch_3_result_column', multimatch_4_result_column', multimatch_5_result_column', softmatch_result_column', sigma_column');
-T.Properties.VariableNames = {'MultiMatch_Vector','MultiMatch_Direction','MultiMatch_Length','MultiMatch_Position','MultiMatch_Duration', 'SoftMatch', 'Noise'};
-writetable(T,'RandomScanpaths.txt');
+T = table(scanmatch_result_column', multimatch_1_result_column', multimatch_2_result_column', multimatch_3_result_column', multimatch_4_result_column', multimatch_5_result_column', softmatch_result_column', sigma_column');
+T.Properties.VariableNames = {'ScanMatch','MultiMatch_Vector','MultiMatch_Direction','MultiMatch_Length','MultiMatch_Position','MultiMatch_Duration', 'SoftMatch', 'Noise'};
+writetable(T,'RandomScanpaths123.txt');
 
 beep()
 
