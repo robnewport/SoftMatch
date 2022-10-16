@@ -43,4 +43,14 @@ This will create heatmaps for SoftMatch.
 ## MultiMatch
 MultiMatch [(Dewhurst et al.)](https://link.springer.com/article/10.3758/s13428-012-0212-2) was kindly provided for this research by Marcus Nyström marcus.nystrom@humlab.lu.se.   
 The only change made to MultiMatch was to increase the resolution to 1920 x 1080 on line 8 in file `doComparison.m.`.  
+
+## ScanMatch
+ScanMatch [(Cristino et al.)](https://www.researchgate.net/publication/46095543_ScanMatch_A_novel_method_for_comparing_fixation_sequences) The ScanMatch toolbox for MATLAB is freely available online (www.scanmatch.co.uk).   
+The only change made to ScanMatch was to increase the resolution to 1920 x 1080 on line 32 and 33 in file `ScanMatch_Struct.m.`.  
+
+## Unique Values and Statistics 
+Unique values for tests are illustrated below. Tests can be found in the [Statistics folder](/Statistics).
+
+![Unique Values](/Supplemental_Generic_A_B.jpg?raw=true)
+
  
